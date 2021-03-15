@@ -6,7 +6,7 @@ function Orders() {
   return (
     <div className="content content-margined">
         <div className = "order-header">
-          <h3>Orders</h3>
+            <h3>Orders</h3>
         </div>
         <div className="order-list">
             <table className="table">
@@ -38,12 +38,8 @@ function Orders() {
                   </td>
                 </tr>))}
      
-          </tbody>
-              
-                  
-                     
-                     
-                     
+             </tbody>
+                    
             </table>
       </div>
    </div>);
