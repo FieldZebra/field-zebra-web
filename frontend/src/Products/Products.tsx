@@ -17,7 +17,7 @@ function Products(){
                             </div>
                             <div className="product-brand">{product.brand}</div>
                             <div className="product-price">{product.price}</div>
-                            <div className="product-rating">{product.rating} Stars ((product.numberOfReviews} Reviews)</div>
+                            <div className="product-rating">{product.rating} Stars ({product.numberOfReviews} Reviews)</div>
                         </li>)
                 }
         </ul>

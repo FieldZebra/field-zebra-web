@@ -1,6 +1,6 @@
 import React from 'react';
 
-Import CheckoutSteps from '../Payment/CheckoutSteps';
+import CheckoutSteps from '../Payment/CheckoutSteps';
 
 function PaymentScreen() {
     
