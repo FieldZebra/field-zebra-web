@@ -66,7 +66,7 @@ function App() {
             <Route path = "/order/:id">
                <OrderDetail />
             </Route>
-            <Route path ="/payment/>
+            <Route path ="/payment">
                <Payment  />
             </Route>
           </Switch>
