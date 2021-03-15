@@ -4,7 +4,7 @@ import {Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 import Product from './Products/Products';
 import Home from './Home/Home';
 import Orders from './Orders/Orders'
-import OrderDetail from './OrderDetails/OrderDetails'
+import OrderDetail from './Orders/OrderDetails'
 
 
 
