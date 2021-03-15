@@ -3,6 +3,7 @@ import './App.css';
 import {Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 import Product from './Products/Products';
 import Home from './Home/Home';
+import Orders from './Orders/Orders'
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <div className="header-links">
             <Link to="/">Home</Link>
             <Link to="/catalog">Catalog</Link>
+            <Link to="/orders">Orders</Link>
           </div>
         </header>
         <aside className="sidebar">
@@ -54,6 +56,9 @@ function App() {
             </Route>
             <Route path="/catalog">
               <Product />
+            </Route>
+            <Route path="/orders">
+              <Orders />
             </Route>
           </Switch>
         </main>
